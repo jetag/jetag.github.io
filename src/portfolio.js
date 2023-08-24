@@ -20,26 +20,26 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "jetag",
+  title: "Hi all, I'm Tejas",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "A passionate Robotics Engineer 🚀 having an experience of building robotic systems. I have a lot of tools in my arsenal ranging from Control theory, Navigation planning to Machine Learning, Embedded system design and Mechatronics. Always up for learning cool new stuff!"
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1Sf17_1ae__4sinnXcNH_MgrzFHGMtD1T/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/jetag",
+  linkedin: "https://www.linkedin.com/in/robotjet/",
+  gmail: "tejas.dce@gmail.com",
+  // gitlab: "https://gitlab.com/saadpastea",
+  // facebook: "https://www.facebook.com/saad.pasta7",
+  // medium: "https://medium.com/@saadpasta",
+  // stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -49,14 +49,14 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "CRAZY ROBOTICS ENGINEER WHO WANTS TO CREATE NEW ROBOTS",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Develop efficient and robust robotic systems using C++ & Python"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ Work on hardware and software integration development cycles"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Create end user interfaces and Documentation websites"
     )
   ],
 
@@ -65,19 +65,19 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
+      skillName: "ROS",
+      fontAwesomeClassname: "fa-solid fa-robot"
     },
     {
-      skillName: "css3",
+      skillName: "C++",
       fontAwesomeClassname: "fab fa-css3-alt"
     },
     {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
+      skillName: "Linux",
+      fontAwesomeClassname: "fa-brands fa-linux"
     },
     {
-      skillName: "JavaScript",
+      skillName: "",
       fontAwesomeClassname: "fab fa-js"
     },
     {
@@ -85,12 +85,12 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-react"
     },
     {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
+      skillName: "Matlab",
+      fontAwesomeClassname: "fa-solid fa-calculator"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
+      skillName: "Java",
+      fontAwesomeClassname: "fa-brands fa-java"
     },
     {
       skillName: "npm",
@@ -126,23 +126,24 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "University of Pennsylvania",
+      logo: require("./assets/images/upennlogo.png"),
+      subHeader: "Master of Science in Electrical Engineering (Robotics)",
+      duration: "Aug 2021 - May 2023",
+      desc: "Took 10 courses on Robotics, ML, CV and Embedded. Researched on a novel aerial vehicle system and taught a course on Embedded ML ",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "GPA : 3.88/4.0",
+        "Outstanding Masters Service Award"
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "Delhi Technological University",
+      logo: require("./assets/images/dtulogo.png"),
+      subHeader: "Bachelor of Technology in Electrical & Electronics Engineering",
+      duration: "Aug 2016 - May 2020",
+      desc: "Took 40 courses on Robotics, Control theory, Embedded, ML, and Cosmology. Developed more than 5 robotic systems and published thesis on brain signal eplilepsy detection",
+      descBullets: ["GPA : 8.8/10.0",
+        "Best Thesis Project Award"]
     }
   ]
 };
